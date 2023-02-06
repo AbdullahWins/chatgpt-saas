@@ -1,13 +1,13 @@
 import React from "react";
-import ai from "../../assets/ai.png";
 import { Link } from "react-router-dom";
 
 const Card = ({ module }) => {
-  const { moduleName, moduleDescription, moduleRoute, resetOutput } = module;
+  const { moduleName, moduleDescription, moduleRoute, img, resetOutput } =
+    module;
   return (
     <div className="card shadow-xl">
       <figure>
-        <img src={ai} alt="pd" />
+        <img className="h-32 w-full" src={img} alt="pd" />
       </figure>
       <div className="card-body flex flex-col items-center justify-center text-center text-white md:p-4 bg-slate-600 rounded-b-2xl p-2">
         <div>

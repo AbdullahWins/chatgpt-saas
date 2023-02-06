@@ -66,6 +66,10 @@ export const routes = createBrowserRouter([
 
   {
     path: "*",
-    element: <h2>lalala</h2>,
+    element: (
+      <h2 className="font-black py-6 text-3xl text-red-600 text-center">
+        Page Not Found!
+      </h2>
+    ),
   },
 ]);
