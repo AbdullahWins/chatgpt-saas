@@ -30,7 +30,7 @@ const UniqueValueProposition = () => {
             className={`p-3 w-full rounded-sm border-solid border-2 border-red-200 ${
               isLoading ? "hidden" : "flex"
             }`}
-            placeholder="enter a topic"
+            placeholder="Briefly describe what this product is"
             name="blog-input"
             id="input"
           ></input>

@@ -1,15 +1,15 @@
 import React, { useContext } from "react";
 import Card from "../../components/Shared/Card";
-import cover1 from "../../assets/cover/1.jpg";
-import cover2 from "../../assets/cover/2.jpg";
-import cover3 from "../../assets/cover/3.jpg";
-import cover4 from "../../assets/cover/4.jpg";
-import cover5 from "../../assets/cover/5.jpg";
-import cover6 from "../../assets/cover/6.jpg";
-import cover7 from "../../assets/cover/7.jpeg";
-import cover8 from "../../assets/cover/8.jpg";
-import cover9 from "../../assets/cover/9.jpg";
-import cover10 from "../../assets/cover/10.jpg";
+import cover1 from "../../assets/cover/3.png";
+import cover2 from "../../assets/cover/8.jpg";
+import cover3 from "../../assets/cover/4.png";
+import cover4 from "../../assets/cover/6.jpg";
+import cover5 from "../../assets/cover/9.png";
+import cover6 from "../../assets/cover/2.jpg";
+import cover7 from "../../assets/cover/10.jpg";
+import cover8 from "../../assets/cover/7.png";
+import cover9 from "../../assets/cover/5.jpg";
+import cover10 from "../../assets/cover/1.png";
 import { AiContext } from "../../contexts/AiContext";
 
 const Home = () => {
@@ -109,7 +109,7 @@ const Home = () => {
         </span>
       </h1>
       {/* cards */}
-      <section className="grid grid-cols-2 md:grid-cols-5 gap-6 p-6">
+      <section className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 p-6">
         {moduleList?.map((module, i) => {
           return <Card key={i} module={module}></Card>;
         })}

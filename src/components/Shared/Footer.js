@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/logo/logo512.png";
+import logo from "../../assets/logo/logo.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -9,9 +9,7 @@ const Footer = () => {
         <img className="w-12 h-12" src={logo} alt="" />
       </Link>
       <span>Copyright © 2023</span>
-      <span className="text-red-500 font-black">
-        Moob Technologies
-      </span>
+      <span className="text-red-500 font-black">Moob Technologies</span>
     </div>
   );
 };
