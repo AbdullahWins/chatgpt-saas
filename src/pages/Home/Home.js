@@ -110,7 +110,7 @@ const Home = () => {
     },
     {
       moduleName: "Chef",
-      moduleDescription: "Do you have a medical concern? Book in an appointment with the Ai Doctor!",
+      moduleDescription: "Hungry? Why not ask our in-house chef for some yummy suggestions!",
       moduleRoute: "/chef",
       img: cover12,
       resetOutput: resetOutput,
