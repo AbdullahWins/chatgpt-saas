@@ -10,6 +10,12 @@ import cover7 from "../../assets/cover/10.jpg";
 import cover8 from "../../assets/cover/7.png";
 import cover9 from "../../assets/cover/5.jpg";
 import cover10 from "../../assets/cover/1.png";
+import cover11 from "../../assets/cover/11.png";
+import cover12 from "../../assets/cover/12.png";
+import cover13 from "../../assets/cover/13.png";
+import cover14 from "../../assets/cover/14.png";
+import cover15 from "../../assets/cover/15.png";
+import cover16 from "../../assets/cover/16.png";
 import { AiContext } from "../../contexts/AiContext";
 
 const Home = () => {
@@ -93,6 +99,48 @@ const Home = () => {
       moduleDescription: "The best AI powered AIDA Framework on the internet!",
       moduleRoute: "/aida",
       img: cover10,
+      resetOutput: resetOutput,
+    },
+    {
+      moduleName: "Ai Doctor",
+      moduleDescription: "Do you have a medical concern? Book in an appointment with the Ai Doctor!",
+      moduleRoute: "/doc",
+      img: cover11,
+      resetOutput: resetOutput,
+    },
+    {
+      moduleName: "Chef",
+      moduleDescription: "Do you have a medical concern? Book in an appointment with the Ai Doctor!",
+      moduleRoute: "/chef",
+      img: cover12,
+      resetOutput: resetOutput,
+    },
+    {
+      moduleName: "IT Support",
+      moduleDescription: "Do you have an technical issue with your computer or any other device, software or hardware? Consult the in-house IT Expert.",
+      moduleRoute: "/itsupport",
+      img: cover13,
+      resetOutput: resetOutput,
+    },
+    {
+      moduleName: "Psychologist",
+      moduleDescription: "Have someone listen to the thoughts that keep you up at night. Get some peace of mind and step in to the shrink's office.",
+      moduleRoute: "/psychologist",
+      img: cover14,
+      resetOutput: resetOutput,
+    },
+    {
+      moduleName: "Dream Interpreter",
+      moduleDescription: "Did you have a weird dream last night? Come find out what it means.",
+      moduleRoute: "/dreamer",
+      img: cover15,
+      resetOutput: resetOutput,
+    },
+    {
+      moduleName: "Career Counselor",
+      moduleDescription: "Need some help deciding on the next step to take in your professional life? Talk to our on-hand career counselor.",
+      moduleRoute: "/career",
+      img: cover16,
       resetOutput: resetOutput,
     },
   ];
