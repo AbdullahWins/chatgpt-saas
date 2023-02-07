@@ -3,6 +3,12 @@ import Home from "../pages/Home/Home";
 import Main from "../layouts/Main";
 import AIDA from "../components/Modules/AIDA";
 import AiLawyer from "../components/Modules/AiLawyer";
+import AiDoctor from "../components/Modules/AiDoctor";
+import ITSupport from "../components/Modules/ITSupport";
+import Psychologist from "../components/Modules/Psychologist";
+import Dreamer from "../components/Modules/Dreamer";
+import Career from "../components/Modules/Career";
+import Chef from "../components/Modules/Chef";
 import BlogPost from "../components/Modules/BlogPost";
 import ColdEmail from "../components/Modules/ColdEmail";
 import HeadlinesAndDescriptions from "../components/Modules/HeadlinesAndDescriptions";
@@ -60,6 +66,30 @@ export const routes = createBrowserRouter([
       {
         path: "/aida",
         element: <AIDA></AIDA>,
+      },
+      {
+        path: "/doc",
+        element: <AiDoctor></AiDoctor>,
+      },
+      {
+        path: "/chef",
+        element: <Chef></Chef>,
+      },
+      {
+        path: "/itsupport",
+        element: <ITSupport></ITSupport>,
+      },
+      {
+        path: "/psychologist",
+        element: <Psychologist></Psychologist>,
+      },
+      {
+        path: "/dreamer",
+        element: <Dreamer></Dreamer>,
+      },
+      {
+        path: "/career",
+        element: <Career></Career>,
       },
     ],
   },
