@@ -30,7 +30,7 @@ const Psychologist = () => {
             className={`p-3 w-full rounded-sm border-solid border-2 border-red-200 ${
               isLoading ? "hidden" : "flex"
             }`}
-            placeholder="Briefly describe your medical concern"
+            placeholder="Briefly describe any concerns you'd like addressed"
             name="blog-input"
             id="input"
           ></input>

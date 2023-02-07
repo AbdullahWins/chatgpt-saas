@@ -30,7 +30,7 @@ const Dreamer = () => {
             className={`p-3 w-full rounded-sm border-solid border-2 border-red-200 ${
               isLoading ? "hidden" : "flex"
             }`}
-            placeholder="Briefly describe your medical concern"
+            placeholder="Briefly describe your recent dream"
             name="blog-input"
             id="input"
           ></input>
