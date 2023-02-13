@@ -46,7 +46,7 @@ const ITSupport = () => {
                 <span>
                   <i className="fa-solid fa-gear fa-spin"></i>
                 </span>
-                <span> Considering your technical issue..</span>
+                <span> Considering your technical issue...</span>
                 <span>
                   <i className="fa-solid fa-gear fa-spin"></i>
                 </span>
